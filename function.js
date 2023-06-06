@@ -1,6 +1,7 @@
 // Code for Before/After Sliders By Webdevtrick ( https://webdevtrick.com )
 function beforeAfter() {
   document.getElementById('alteredone').style.width = document.getElementById('sliderone').value + "%";
+}
 
 
   const scrollLinks = document.querySelectorAll(".scroll-link");
