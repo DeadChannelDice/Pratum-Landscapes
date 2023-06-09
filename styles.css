@@ -31,7 +31,7 @@
 
 /* general formatting */
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Playfair Display ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 2px;
     /* border: 1px solid red; */
 }
@@ -60,7 +60,7 @@ li {
 button {
     background-color: white;
     color: black;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     padding: 8px 16px;    
     font-size: 16px;
 }
@@ -106,6 +106,7 @@ body {
     height: auto;
     width: 200px;
     padding: 16px;
+    margin: 6rem 0 0 0;
 }
 
 .header-menu {
@@ -123,6 +124,7 @@ body {
 /* Hero */
 .container-hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;   
     background-image: url(./images/pratum-hero.jpg);
@@ -146,11 +148,12 @@ overflow: hidden;
 .hero-statment {
     background-color: #F6EDDE;
     opacity: 90%;
-    margin: 6rem 1rem;
+    margin: 0 1rem 6rem 1rem;
     padding: 2rem;
     font-size: 1rem;
     text-align: center;
 }
+
 
 /* Services */
 #services {
@@ -240,7 +243,7 @@ overflow: hidden;
 } */
 
 input {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     margin: .5rem 0 ;
     width: 100%;
     background-color: #F5F5F5;
@@ -291,7 +294,7 @@ textarea {
 	height: 3rem;
 	display: grid;
 	place-items: center;
-	border-radius: 8px;
+	/* border-radius: 8px; */
 	color: white;
 	visibility: hidden; 
     z-index: -100;
