@@ -31,8 +31,8 @@
 
 /* general formatting */
 * {
-    font-family: 'Sylfaen', 'Arial Narrow Bold', sans-serif;
-    border-radius: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 2px;
     /* border: 1px solid red; */
 }
 
@@ -124,7 +124,12 @@ body {
 .container-hero {
     display: flex;
     align-items: center;
-    justify-content: center;        
+    justify-content: center;   
+    background-image: url(./images/pratum-hero.jpg);
+    background-position: center;
+    background-size:cover;   
+    background-repeat: none;
+    margin: 1rem;  
 }
 
 .hero-img {
@@ -136,6 +141,15 @@ overflow: hidden;
 .hero {
     padding: 0%;
     margin: 0%;
+}
+
+.hero-statment {
+    background-color: #F6EDDE;
+    opacity: 90%;
+    margin: 6rem 1rem;
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
 /* Services */
