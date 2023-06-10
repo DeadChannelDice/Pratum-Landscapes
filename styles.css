@@ -325,7 +325,13 @@ textarea {
 
   /* Portfolio pages */
 
-  
+  .logo-portfolio {
+    
+    height: auto;
+    width: 200px;
+    padding: 16px;
+    margin: 0 auto;
+  }
 
   .section-format {
     display: flex;
