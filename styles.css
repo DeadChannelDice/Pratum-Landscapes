@@ -184,8 +184,16 @@ overflow: hidden;
 
 /* Projects */
 
+.project-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .project {
-    width: 80vw;
+    margin: 0 auto;
+    width: 80%;
     height: auto;
 }
 
